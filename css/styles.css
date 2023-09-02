@@ -1,1 +1,37 @@
-:root {}
+.logo {
+    color: #4D5AE5;
+}
+
+.logo-studio {
+    color: #2E2F42;
+}
+
+.nav-link {
+    color: #2E2F42;
+    list-style-type: none
+}
+
+.address {
+    color: #434455;
+}
+
+
+.hero-section {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    color: #FFF;
+}
+
+.batton {
+    color: #FFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    border: none;
+}
+
+.batton:hover {
+    color: #FFF;
+    background-color: #4D5AE5;
+}
