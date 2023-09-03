@@ -61,17 +61,17 @@ h2 {
 
 .nav-link:hover {
     color: #404BBF;
-    text-decoration: underline
+
 }
 
 .nav-link:active {
     color: #404BBF;
-    text-decoration: underline
+
 }
 
 .nav-link:focus {
     color: #404BBF;
-    text-decoration: underline
+
 }
 
 .mailtel {
@@ -144,7 +144,7 @@ h2 {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
+
 }
 
 .feature-title {
