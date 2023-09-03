@@ -1,5 +1,5 @@
 body {
-    color: #2E2F42;
+    color: #434455;
     font-family: 'Roboto', sans-serif;
     background-color: #FFF;
 }
@@ -33,7 +33,7 @@ h2 {
 
 .logo {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -59,23 +59,43 @@ h2 {
 
 }
 
-.nav-link:hover,
+.nav-link:hover {
+    color: #404BBF;
+    text-decoration: underline
+}
+
 .nav-link:active {
     color: #404BBF;
     text-decoration: underline
 }
 
+.nav-link:focus {
+    color: #404BBF;
+    text-decoration: underline
+}
+
 .mailtel {
+    font-style: normal;
+}
+
+.mailtel-link {
     color: #434455;
     font-size: 16px;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
 
-.mailtel:hover,
-.mailtel:active {
+.mailtel-link:hover,
+.mailtel-link:active {
+    color: #404BBF;
+}
+
+.mailtel-link:active {
+    color: #404BBF;
+}
+
+.mailtel-link:focus {
     color: #404BBF;
 }
 
@@ -102,14 +122,19 @@ h2 {
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     cursor: pointer;
-    border: none;
-    border-radius: 4px;
-    padding: 16px 32px;
-    margin: 0 auto;
-    display: block;
+
+
 }
 
 .batton:hover {
+    background-color: #404BBF;
+}
+
+.batton:active {
+    background-color: #404BBF;
+}
+
+.batton:focus {
     background-color: #404BBF;
 }
 
@@ -129,11 +154,20 @@ h2 {
 }
 
 .feature-text {
-    color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-list {
+    background-color: #FFFFFF;
+}
+
+
 
 .footer-text {
     color: #F4F4FD;
