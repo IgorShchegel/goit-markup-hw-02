@@ -18,17 +18,7 @@ h2 {
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+    color: #2E2F42;
 }
 
 .logo {
@@ -61,17 +51,17 @@ h2 {
 
 .nav-link:hover {
     color: #404BBF;
-
+    text-decoration: underline
 }
 
 .nav-link:active {
     color: #404BBF;
-
+    text-decoration: underline
 }
 
 .nav-link:focus {
     color: #404BBF;
-
+    text-decoration: underline
 }
 
 .mailtel {
