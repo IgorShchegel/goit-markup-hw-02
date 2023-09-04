@@ -51,17 +51,17 @@ h2 {
 
 .nav-link:hover {
     color: #404BBF;
-    text-decoration: underline
+
 }
 
 .nav-link:active {
     color: #404BBF;
-    text-decoration: underline
+
 }
 
 .nav-link:focus {
     color: #404BBF;
-    text-decoration: underline
+
 }
 
 .mailtel {
